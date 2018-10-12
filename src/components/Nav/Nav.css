@@ -1,0 +1,38 @@
+nav ul {
+	margin: 0 0 0 0;
+	padding: 1em 0 0 0;
+	background-color: white;
+	display: flex;
+	list-style-type: none;
+	justify-content: space-around;
+}
+
+nav ul li {
+	padding-top: 18px;
+}
+
+nav ul li.nav-profile {
+	padding-top: 0;
+}
+
+nav ul li a {
+	padding: 0.5em;
+	display: inline-block;
+	border-top-left-radius: 0.5em;
+	border-top-right-radius: 0.5em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a.active {
+	color: white;
+	background-color: #009999;
+}
+
+
+nav ul li a img.nav-avatar {
+	border-radius: 50%;
+}

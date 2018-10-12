@@ -1,0 +1,36 @@
+section.page404 {
+	text-align: center;
+}
+
+section.page404 article {
+	margin: 1em 0;
+	padding: 1em;
+	display: inline-block;
+	width: 90%;
+	max-width: 600px;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5em;
+}
+
+section.page404 article h1 {
+	margin: 0;
+	font-size: 5em;
+}
+
+section.page404 article hr {
+	width: 80%;
+	height: 1px;
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	border: none;
+}
+
+section.page404 article .error {
+	margin-bottom: 1em;
+	font-style: italic;
+}
+
+section.page404 article a {
+	text-decoration: none;
+	color: blue;
+}

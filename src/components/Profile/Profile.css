@@ -1,0 +1,61 @@
+#profile {
+	text-align: center;
+}
+
+#profile article {
+	margin: 1em 0;
+	padding: 1em;
+	display: inline-block;
+	width: 90%;
+	max-width: 600px;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5em;
+}
+
+#profile article #profile-avatar {
+	width: 150px;
+	overflow: hidden;
+	border-right: 1px solid #CCCCCC;
+}
+
+#profile article #profile-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+#profile article #profile-avatar img {
+	margin: 0 auto;
+	border-radius: 50%;
+}
+
+#profile article #profile-content {
+	padding: 0 0.5em;
+	width: calc(100% - 1px - 150px);
+	text-align: left;
+	height: 128px;
+}
+
+#profile article #profile-content h1 {
+	margin: 0 0 1em 0;
+}
+
+#profile article #profile-content .line {
+	text-align: right;
+}
+
+#profile article #profile-content .line hr {
+	display: inline-block;
+	width: 25%;
+	height: 1px;
+	color: #CCCCCC;
+	background-color: #CCCCCC;
+	border: none;
+}
+
+#profile article #profile-content .questions span {}
+
+#profile article #profile-content .questions em {
+	padding-right: 0.25em;
+	float: right;
+	font-style: normal;
+}

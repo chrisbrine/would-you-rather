@@ -1,0 +1,69 @@
+section.signin {
+	text-align: center;
+}
+
+section.signin article {
+	margin: 1em 0;
+	display: inline-block;
+	width: 80%;
+	max-width: 600px;
+	border: 1px solid #CCCCCC;
+	border-radius: 0.5em;
+}
+
+section.signin .top {
+	background-color: #EEEEEE;
+	border-bottom: 1px solid #CCCCCC;
+}
+
+section.signin .top h2 {
+	margin: 0;
+	padding: 0.5em;
+}
+
+section.signin .top h3 {
+	margin: 0;
+	padding: 0 0 0.75em;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+section.signin .bottom {
+	padding: 1em;
+}
+
+section.signin .bottom .avatar-container {
+	margin-top: 1em;
+}
+
+section.signin .bottom .avatar-container img {
+	border-radius: 50%;
+}
+
+section.signin .bottom h4 {
+	margin: 0.5em 0;
+	color: #009999;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+
+section.signin .bottom select {
+	margin-bottom: 0.5em;
+	display: inline-block;
+	width: 100%;
+	height: 2em;
+	font-size: 1.25em;
+	text-align: center;
+}
+
+section.signin .bottom button {
+	padding: 0.75em 0;
+	display: block;
+	width: 100%;
+	border: #009999;
+	background-color: #007777;
+	color: white;
+	border-radius: 0.5em;
+	font-size: 1em;
+	font-weight: bold;
+}
